@@ -8,11 +8,6 @@ public class sit_Reserve2 {
 	static String[] b_sit;
 	static Scanner sc = new Scanner(System.in);
 
-	public int[] sit() {
-
-		return null;
-	}
-
 	public static void reserve() {
 		s_sit = new String[10];
 		a_sit = new String[10];
