@@ -2,10 +2,16 @@ package com.java.review.chapter4;
 
 import java.util.Scanner;
 
-public class sit_Reserve {
+public class sit_Reserve2 {
 	static String[] s_sit;
 	static String[] a_sit;
 	static String[] b_sit;
+	static Scanner sc = new Scanner(System.in);
+
+	public int[] sit() {
+
+		return null;
+	}
 
 	public static void reserve() {
 		s_sit = new String[10];
@@ -21,7 +27,7 @@ public class sit_Reserve {
 			b_sit[i] = "---";
 		}
 		System.out.print("좌석 구분 S(1), A(2), B(3)> ");
-		Scanner sc = new Scanner(System.in);
+
 		int n = sc.nextInt();
 		if (n == 1) {
 			for (int i = 0; i < s_sit.length; i++) {
